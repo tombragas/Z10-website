@@ -1,0 +1,24 @@
+html {
+    --background-color-blue: rgb(46 129 0 / 60%);
+}
+
+h1.title,
+h2,
+h3 {
+    background-color: transparent;
+    position: relative;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.5),
+        1px 1px rgba(255, 255, 255, 0.5);
+}
+
+h2::before,
+h3::before {
+    content: ' ';
+    background-image: url(/imgs/wood_plank.svg);
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    z-index: -1;
+    height: 50px;
+    transform: translate(-50%, -50%) scaleX(1.5) rotate(5deg);
+}

@@ -1,0 +1,255 @@
+/* General */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
+}
+.tut .space-top {
+    margin-top: 30px;
+}
+.tut .box-shadow {
+    -webkit-box-shadow: 0 1px 10px hsla(22,22%,0%,0.7);
+    -moz-box-shadow: 0 1px 10px hsla(15,35%,0%,0.7);
+    -o-box-shadow: 0 1px 10px hsla(22,22%,0%,0.7);
+    -khtml-box-shadow: 0 1px 10px hsla(22,22%,0%,0.7);
+    box-shadow: 0 1px 10px hsla(15,35%,0%,0.7);
+}
+html.tut {
+    height: 100%;
+}
+.tut html {
+    height: 100%;
+}
+.tut body {
+    margin: auto;
+    width: 800px;
+    background-color: hsl(212,90%,15%);
+    font-family: 'Verdana';
+    line-height: 18px;
+    font-size: 14px;
+    color: black;
+    height: 100%;
+    min-height: 100%;
+}
+.tut a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.tut a:hover {
+    color: #D49D55;
+}
+.tut mark {
+    color: hsl(15,35%,0%);
+    background: none;
+    font-weight: bold;
+}
+.tut section p {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.tut footer p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 5px;
+}
+
+.tut footer {
+    padding-bottom: 0px;
+    text-align: center;
+    position:absolute;
+    bottom:0px !important;
+    width: 800px;
+    margin:0px auto;
+    margin-left: 0px;
+}
+
+.tut div #minheight {
+    height:60px;
+    clear:both;
+}
+
+.tut header {
+    padding-top: 0px;
+}
+.tut header .description {
+    padding-top: 35px;
+    margin-left: 60px;
+    font-size: 13px;
+    color: #6e5c47;
+    text-shadow: 0px 1px 0 #90795e;
+}
+.tut hgroup {
+    padding-top: 60px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+    width: 280px;
+    float: left;
+}
+.tut header h1, .tut header h2 {
+    font-family: 'Plastique';
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #f29400;
+}
+
+.tut header h1 {
+    color: hsl(15,35%,34%);
+}
+
+.tut header h3 {
+    font-weight: bold;
+    font-size: 30px;
+    font-variant:small-caps;
+    line-height: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: hsl(15,0%,100%);
+    width: 300px;
+    text-align: center;
+    padding-right: 4px;
+    padding-bottom:10px;
+}
+.tut header h4 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 25px;
+    margin: 0;
+    color: hsl(15,35%,34%);
+    width: 385px;
+    text-align: right;
+    border-right: 2px solid hsl(22,22%,58%);
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+.tut .overview article {
+    position: absolute;
+    top: 0;
+    left: 200;
+    width: 400px;
+    height: 400px;
+    -webkit-transition: opacity 1s;
+    -khtml-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.tut .overview p {
+    margin:0px;
+    margin-bottom:2px;
+}
+.tut .bandsite article {
+    width: 300px;
+    height: 200px;
+    -webkit-transition: opacity 1s;
+    -khtml-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.tut a {
+	-webkit-transition: color 0.2s;
+    -khtml-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.tut .slammer {
+    -webkit-transition: opacity 0.5s;
+    -khtml-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    text-align: justify;
+}
+
+.tut #customer-opinions {
+    -webkit-column-width: 335px;
+    -webkit-column-gap: 30px;
+    -khtml-column-width: 335px;
+    -khtml-column-gap: 30px;
+    -moz-column-width: 335px;
+    -moz-column-gap: 30px;
+    -o-column-width: 335px;
+    -o-column-gap: 30px;
+    -ms-column-width: 335px;
+    -ms-column-gap: 30px;
+    column-width: 335px;
+    column-gap: 30px;
+    text-align: justify;
+}
+
+.tut body > footer {
+    width: 100%;
+    padding: 30px;
+    font-size: 90%;
+}
+.tut body > footer p {
+    margin-bottom: 0;
+}
+
+
+.tut .maincontent {
+    background-color: #FFFFFF;
+    width: 800px;
+    margin: 0;
+    border-right: 1px solid hsl(22,22%,0%);
+    border-left: 1px solid hsl(22,22%,0%);
+    -webkit-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    -moz-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    -o-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    -khtml-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    box-shadow: 0 3px 30px hsla(15,35%,0%,1);
+    padding-bottom: 0px;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow: hidden !important;
+    background-image: url(bilder/background.png);
+    background-repeat: no-repeat; 
+}
+
+.tut .maincontentbands {
+    background-color: #FFFFFF;
+    width: 800px;
+    margin: 0;
+    border-right: 1px solid hsl(22,22%,0%);
+    border-left: 1px solid hsl(22,22%,0%);
+    -webkit-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    -moz-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    -o-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    -khtml-box-shadow: 0 3px 30px hsla(22,22%,0%,1);
+    box-shadow: 0 3px 30px hsla(15,35%,0%,1);
+    padding-bottom: 0px;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+    min-height: 100%;
+    overflow: hidden !important;
+    background-image: url(bilder/backgroundbands.png);
+    background-repeat: no-repeat; 
+}
+
+.tut .maincontentbox {
+    width: 800px;
+    margin: auto;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 0px;
+}
+

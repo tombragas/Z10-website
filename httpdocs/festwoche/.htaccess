@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+Options +Indexes
+
+RewriteBase /festwoche/
+RewriteRule ^2018(.*) 35$1 [L]
+RewriteRule ^2013(.*) 30$1 [L]
+RewriteRule ^!(2013|35|30|2018)(.*) 35$1 [L]
+RewriteRule ^index.html 35/ [R,L]
+RewriteRule ^$ 35/ [R,L]

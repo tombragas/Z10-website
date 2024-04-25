@@ -1,0 +1,32 @@
+table.sortable>thead>tr {
+	white-space: nowrap;
+}
+
+table.sortable>thead>tr>th {
+	font-weight: bold;
+	padding-right: 15px;
+	cursor: pointer;
+}
+
+table.sortable>thead>tr>th[data-nonsortable='true'] {
+	padding-right: 15px;
+	cursor: default;
+}
+
+table.sortable>thead>tr>th.order-field {
+	padding-right: 0px;
+}
+
+table.sortable>thead>tr>th.order-asc:after {
+	display: inline-block;
+	text-align: center;
+	width: 15px;
+	content: '\25B2';
+}
+
+table.sortable>thead>tr>th.order-desc:after {
+	display: inline-block;
+	text-align: center;
+	width: 15px;
+	content: '\25BC';
+}

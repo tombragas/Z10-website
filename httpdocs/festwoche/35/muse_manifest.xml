@@ -1,0 +1,542 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.z10.info/festwoche" resolutions="1x,2x" timestamp="1525550106949">
+  <folder name="css">
+    <file name="site_global.css" crc="107006839"/>
+    <file name="index.css" crc="227584547" ref="index"/>
+    <file name="master_a-musters.css" crc="3943764966" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="nomq_preview_master_a-musters.css" crc="457283574" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="nomq_index.css" crc="311347485" ref="index"/>
+    <file name="iefonts_index.css" crc="460874189" ref="index"/>
+    <file name="z10-festwoche-programm.css" crc="12379434" ref="z10-festwoche-programm"/>
+    <file name="nomq_z10-festwoche-programm.css" crc="4144166652" ref="z10-festwoche-programm"/>
+    <file name="iefonts_z10-festwoche-programm.css" crc="460874189" ref="z10-festwoche-programm"/>
+    <file name="z10-festwoche-be-awesome.css" crc="394352225" ref="z10-festwoche-be-awesome"/>
+    <file name="nomq_z10-festwoche-be-awesome.css" crc="421698429" ref="z10-festwoche-be-awesome"/>
+    <file name="z10-festwoche-kontakt.css" crc="123652333" ref="z10-festwoche-kontakt"/>
+    <file name="nomq_z10-festwoche-kontakt.css" crc="3861300297" ref="z10-festwoche-kontakt"/>
+    <file name="iefonts_z10-festwoche-kontakt.css" crc="460874189" ref="z10-festwoche-kontakt"/>
+    <file name="z10-festwoche-acts.css" crc="4267635665" ref="z10-festwoche-acts"/>
+    <file name="nomq_z10-festwoche-acts.css" crc="3873731845" ref="z10-festwoche-acts"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="museutils.js" crc="3803043152" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="whatinput.js" crc="86476730" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="webpro.js" crc="242022427" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index:z10-festwoche-programm:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index:z10-festwoche-programm:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index:z10-festwoche-programm:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="require.js" crc="4157109226" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+  </folder>
+  <folder name="images">
+    <file name="hintergrund.jpg" crc="166936003" ref="z10-festwoche-acts">
+      <caption webpage="index" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="goodies" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="helfer-werden!" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="956.jpg" crc="3865210950" seo="true" ref="index:z10-festwoche-kontakt">
+      <caption webpage="acts" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="goodies" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="helfer-werden!" alt=""/>
+    </file>
+    <file name="6320.jpg" crc="4137062048" seo="true" ref="index:z10-festwoche-kontakt">
+      <caption webpage="acts" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="goodies" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="helfer-werden!" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index:z10-festwoche-programm:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="img0083.jpg" crc="241905126" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="hintergrund.png" crc="3990045209" seo="true" ref="index:z10-festwoche-kontakt">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+      <caption webpage="z10-festwoche-kontakt" alt=""/>
+    </file>
+    <file name="bildschirmfoto 2018-03-16 um 154954.jpg" crc="3880638758" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrowmenudown.png" crc="262559161" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="kontakt" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="1.jpg" crc="352321668" ref="z10-festwoche-programm">
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="theater.jpg" crc="303173692" ref="z10-festwoche-programm">
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="reggae.jpg" crc="6840027" ref="z10-festwoche-programm">
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="sofe16_1.jpg" crc="343015691" seo="true" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="sofe16_2.jpg" crc="3783745463" seo="true" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="img0167.jpg" crc="4042032940" seo="true" ref="index:z10-festwoche-programm">
+      <caption webpage="index" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="gasmacgilmore.jpg" crc="410149276" seo="true" ref="z10-festwoche-acts">
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+    </file>
+    <file name="bildschirmfoto 2018-03-16 um 154954_2x.jpg" crc="361198641" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bildschirmfoto 2018-03-21 um 222100.jpg" crc="452912733" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bildschirmfoto 2018-03-21 um 222100_2x.jpg" crc="198470904" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="garten-u5856-fr.jpg" crc="126093206" ref="index"/>
+    <file name="img0097-u5866-fr.jpg" crc="4138113997" ref="index"/>
+    <file name="qoutes-u7201.png" crc="4131303808" ref="index"/>
+    <file name="hintergrund.svg" crc="3994435525" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt"/>
+    <file name="hintergrund_poster_u8069.png" crc="4166560896" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt"/>
+    <file name="qoutes-u72012.png" crc="4131303808" ref="index"/>
+    <file name="u48207-4.png" crc="513483221" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48207-4_2x.png" crc="161733214" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states.png" crc="4170462712" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states_2x.png" crc="284896446" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states-r.png" crc="3844512799" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states-r_2x.png" crc="4238056660" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states-m.png" crc="3876888634" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states-m_2x.png" crc="362457745" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states-a.png" crc="3876888634" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48242_states-a_2x.png" crc="362457745" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states.png" crc="4133991141" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states_2x.png" crc="497355400" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states-r.png" crc="3811952928" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states-r_2x.png" crc="222728936" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states-m.png" crc="110628677" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states-m_2x.png" crc="4278105782" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states-a.png" crc="3811952928" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u48243_states-a_2x.png" crc="222728936" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="qoutes-u72013.png" crc="4140601481" ref="index"/>
+    <file name="img01672.jpg" crc="4259237781" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img0167_2x.jpg" crc="4042032940" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="qoutes-u72014.png" crc="4140601481" ref="index"/>
+    <file name="1-u20572-fr.jpg" crc="59800451" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u20576-fr.jpg" crc="3838459424" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u20576-fr_2x.jpg" crc="4276750719" ref="z10-festwoche-programm"/>
+    <file name="theater-u20579-fr.jpg" crc="3892047446" ref="z10-festwoche-programm"/>
+    <file name="reggae-u20581-fr.jpg" crc="388837138" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch.jpg" crc="21416333" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="metalmittwoch_2x.jpg" crc="99084801" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+      <caption webpage="programm" alt=""/>
+    </file>
+    <file name="metalmittwoch-u20576-fr2.jpg" crc="149048390" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u20576-fr_2x2.jpg" crc="356087503" ref="z10-festwoche-programm"/>
+    <file name="theater-u20579-fr2.jpg" crc="4228183556" ref="z10-festwoche-programm"/>
+    <file name="reggae-u20581-fr2.jpg" crc="3932185478" ref="z10-festwoche-programm"/>
+    <file name="theater-u20579-fr3.jpg" crc="3790419074" ref="z10-festwoche-programm"/>
+    <file name="reggae-u20581-fr3.jpg" crc="4103287887" ref="z10-festwoche-programm"/>
+    <file name="theater-u20579-fr4.jpg" crc="251862734" ref="z10-festwoche-programm"/>
+    <file name="reggae-u20581-fr4.jpg" crc="535345248" ref="z10-festwoche-programm"/>
+    <file name="dsc_0168.jpg" crc="4075658304" seo="true" ref="z10-festwoche-acts">
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+    </file>
+    <file name="campus-klassik-u25736.png" crc="40646191" ref="z10-festwoche-acts"/>
+    <file name="zapata-u25710.png" crc="4244292412" ref="z10-festwoche-acts"/>
+    <file name="gasmac-u25713.png" crc="164970111" ref="z10-festwoche-acts"/>
+    <file name="gasmac-u25713_2x.png" crc="197008853" ref="z10-festwoche-acts"/>
+    <file name="geistsoz-u25715-fr.jpg" crc="73552208" ref="z10-festwoche-acts"/>
+    <file name="geistsoz-u25715-fr_2x.jpg" crc="132127582" ref="z10-festwoche-acts"/>
+    <file name="leewhite_photomatthiasfluhrer_3_medres-u25718-fr.jpg" crc="4077080275" ref="z10-festwoche-acts"/>
+    <file name="ras muhamad.jpg" crc="3991621032" ref="z10-festwoche-acts">
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+    </file>
+    <file name="ras muhamad_2x.jpg" crc="346783081" ref="z10-festwoche-acts">
+      <caption webpage="kuenstler" alt=""/>
+      <caption webpage="z10-festwoche-acts" alt=""/>
+      <caption webpage="z10-festwoche-künstler" alt=""/>
+      <caption webpage="z10festwoche-acts" alt=""/>
+    </file>
+    <file name="toke-u25724-fr.jpg" crc="23994253" ref="z10-festwoche-acts"/>
+    <file name="campus-klassik-u257362.png" crc="4199374639" ref="z10-festwoche-acts"/>
+    <file name="zapata-u257102.png" crc="4215535722" ref="z10-festwoche-acts"/>
+    <file name="gasmac-u257132.png" crc="191567098" ref="z10-festwoche-acts"/>
+    <file name="gasmac-u25713_2x2.png" crc="166230239" ref="z10-festwoche-acts"/>
+    <file name="beawesome_2.jpg" crc="4078312549" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-11.png" crc="135441656" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-11_2x.png" crc="4141965424" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome-crop-u33261.jpg" crc="4190979302" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="beawesome-crop-u33261_2x.jpg" crc="79372679" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="beawesome_2_2x.jpg" crc="4228205958" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-112.png" crc="3812478878" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-11_2x2.png" crc="4164012738" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome-crop-u332612.jpg" crc="268959015" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="beawesome-crop-u33261_2x2.jpg" crc="311542888" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="beawesome_2-u34675-fr.jpg" crc="312267517" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome_2-u34675-fr_2x.jpg" crc="156942839" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-113.png" crc="4163295320" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-11_2x3.png" crc="410876421" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome-crop-u332613.jpg" crc="230873848" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="beawesome-crop-u33261_2x3.jpg" crc="3875452471" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="u31024-114.png" crc="3860837219" ref="z10-festwoche-be-awesome"/>
+    <file name="u31024-11_2x4.png" crc="4194777554" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome_2-u34675-fr2.jpg" crc="122472673" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome_2-u34675-fr_2x2.jpg" crc="3923416721" ref="z10-festwoche-be-awesome"/>
+    <file name="beawesome-crop-u332614.jpg" crc="3837291473" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="beawesome-crop-u33261_2x4.jpg" crc="4160589685" seo="true" ref="z10-festwoche-be-awesome">
+      <caption webpage="z10-festwoche-be-awesome" alt=""/>
+      <caption webpage="helfer" alt=""/>
+      <caption webpage="z10festwoche-beawesome" alt=""/>
+    </file>
+    <file name="favicon.ico" crc="3782204747" ref="index"/>
+    <file name="u3789_states.png" crc="395125580" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u3789_states_2x.png" crc="4037682441" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u3789_states-r.png" crc="95266305" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u3789_states-r_2x.png" crc="301841619" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023.png" crc="4092576542" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023_2x.png" crc="402012451" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023-r.png" crc="4237777853" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023-r_2x.png" crc="3802259059" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023-m.png" crc="256265218" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023-m_2x.png" crc="264893671" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023-a.png" crc="4237777853" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60023-a_2x.png" crc="3802259059" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009.png" crc="35735131" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009_2x.png" crc="4243784710" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009-r.png" crc="147933339" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009-r_2x.png" crc="4265280415" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009-m.png" crc="113737168" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009-m_2x.png" crc="3955549719" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009-a.png" crc="147933339" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60009-a_2x.png" crc="4265280415" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017.png" crc="350795082" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017_2x.png" crc="501680513" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017-r.png" crc="127995826" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017-r_2x.png" crc="153052755" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017-m.png" crc="4070894544" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017-m_2x.png" crc="391033209" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017-a.png" crc="127995826" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60017-a_2x.png" crc="153052755" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040.png" crc="43778619" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040_2x.png" crc="71843435" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040-r.png" crc="4119254898" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040-r_2x.png" crc="3911610383" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040-m.png" crc="4194949225" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040-m_2x.png" crc="213695568" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040-a.png" crc="4119254898" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="u60040-a_2x.png" crc="3911610383" ref="index:z10-festwoche-programm:z10-festwoche-be-awesome:z10-festwoche-kontakt:z10-festwoche-acts"/>
+    <file name="1-u20572-fr2.jpg" crc="477502660" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u57570-fr.jpg" crc="404732466" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u57570-fr_2x.jpg" crc="117260036" ref="z10-festwoche-programm"/>
+    <file name="1-u20572-fr3.jpg" crc="3947753257" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u57570-fr2.jpg" crc="4166749418" ref="z10-festwoche-programm"/>
+    <file name="metalmittwoch-u57570-fr_2x2.jpg" crc="4250375709" ref="z10-festwoche-programm"/>
+    <file name="1-u20572-fr4.jpg" crc="4095731874" ref="z10-festwoche-programm"/>
+    <file name="geistsoz-u25715-fr2.jpg" crc="3976867354" ref="z10-festwoche-acts"/>
+    <file name="geistsoz-u25715-fr_2x2.jpg" crc="3810946837" ref="z10-festwoche-acts"/>
+    <file name="leewhite_photomatthiasfluhrer_3_medres-u25718-fr2.jpg" crc="3912470187" ref="z10-festwoche-acts"/>
+    <file name="jubilaumsquiz.jpg" crc="3913409737" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+    </file>
+    <file name="klassikfruhstuck.jpg" crc="225956464" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+    </file>
+    <file name="klassikfruhstuck_2x.jpg" crc="3855931025" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+    </file>
+    <file name="jubilaumsquiz2.jpg" crc="4087315243" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+    </file>
+    <file name="jubilaumsquiz_2x.jpg" crc="3913409737" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+      <caption webpage="z10festwoche-programm" alt=""/>
+    </file>
+    <file name="jubilaumsquiz-u57136-fr.jpg" crc="4036940889" ref="z10-festwoche-programm"/>
+    <file name="jubilaumsquiz-u57136-fr_2x.jpg" crc="247800917" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr.jpg" crc="13417447" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr_2x.jpg" crc="217797996" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr2.jpg" crc="208422216" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr_2x2.jpg" crc="4148903213" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr3.jpg" crc="3991903159" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr_2x3.jpg" crc="225956464" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr4.jpg" crc="4140551176" ref="z10-festwoche-programm"/>
+    <file name="klassikfruhstuck-u65358-fr_2x4.jpg" crc="4003404797" ref="z10-festwoche-programm"/>
+    <file name="logo-u2056.png" crc="4211949384" ref="index:z10-festwoche-programm:z10-festwoche-acts:z10-festwoche-be-awesome:z10-festwoche-kontakt"/>
+    <file name="logo-u2056_2x.png" crc="344248040" ref="index:z10-festwoche-programm:z10-festwoche-acts:z10-festwoche-be-awesome:z10-festwoche-kontakt"/>
+    <file name="ska kopie-u20583-fr.jpg" crc="422218598" ref="z10-festwoche-programm"/>
+    <file name="ska kopie-u20583-fr_2x.jpg" crc="3782128820" ref="z10-festwoche-programm"/>
+    <file name="ska kopie.jpg" crc="479062853" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+    </file>
+    <file name="ska kopie_2x.jpg" crc="3993408509" ref="z10-festwoche-programm">
+      <caption webpage="z10-festwoche-programm" alt=""/>
+    </file>
+    <file name="ska kopie-u20583-fr2.jpg" crc="184868104" ref="z10-festwoche-programm"/>
+    <file name="ska kopie-u20583-fr_2x2.jpg" crc="216532469" ref="z10-festwoche-programm"/>
+    <file name="ska kopie-u20583-fr3.jpg" crc="3925488077" ref="z10-festwoche-programm"/>
+    <file name="ska kopie-u20583-fr_2x3.jpg" crc="4083245884" ref="z10-festwoche-programm"/>
+    <file name="ska kopie-u20583-fr4.jpg" crc="3819806389" ref="z10-festwoche-programm"/>
+    <file name="ska kopie-u20583-fr_2x4.jpg" crc="255547113" ref="z10-festwoche-programm"/>
+    <file name="wahrhaft_schwache_late.jpg" crc="153106256" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="wahrhaft_schwache_late_2x.jpg" crc="314619962" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="jazzchor.jpg" crc="4289974265" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="leiene.jpg" crc="321641079" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="leiene_2x.jpg" crc="4284121211" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="physikertheater_new.jpg" crc="3978308876" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="physikertheater_new_2x.jpg" crc="3846229885" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="slaughterra.jpg" crc="4273346651" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="unojah_press1.jpg" crc="393131907" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="unojah_press1_2x.jpg" crc="4157135171" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="zauberer_simon.jpg" crc="493416358" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+    <file name="zauberer_simon_2x.jpg" crc="3942450630" ref="z10-festwoche-acts">
+      <caption webpage="z10-festwoche-acts" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3945782452" seo="true" mt="1525550045976" redirect="true"/>
+  <file name="z10-festwoche-programm.html" crc="527948254" seo="true" mt="1525550045976" redirect="true"/>
+  <file name="z10-festwoche-be-awesome.html" crc="4156574049" seo="true" mt="1525550045976" redirect="true"/>
+  <file name="z10-festwoche-kontakt.html" crc="3917287025" seo="true" mt="1525550045976" redirect="true"/>
+  <file name="z10-festwoche-acts.html" crc="3763661142" seo="true" mt="1525550045976" redirect="true"/>
+</manifest>

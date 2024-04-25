@@ -1,0 +1,173 @@
+<?php
+# Das ist ein bisschen gewöhnungsbedürftig:
+# _alle_ Ausgabe von allen Untermodules/Includes wird gepuffert um ganz am Schluss mit der protectMail()-Funktion
+# bearbeitet und dann ausgegeben zu werden
+ob_start();
+
+require("includes/config.inc.php");
+require_once("includes/content.inc.php");
+require_once("includes/shoutbox.inc.php");
+$topic = arrayKey( 'topic', $_GET );
+if (!$topic)
+   $topic = 'home';
+
+// Allowed topics
+$allowed = array(
+   'home',         
+   // Static
+   'cafe',     'historie',       'karte',       'kontakt',        'spiele',   'rauminfo',  '403', 'stadtgeburtstag', 
+   // Kurse
+   'kurse',    'kurs_delete',    'kurs_verify', 'kurs_anmeldung',
+   //  Kram
+   'archiv',   'shouthistory',   'wer',         'programm',       'termineics',
+   // Hilfsfunktionen
+   'helfer',   'hotlink',        'mail',        'shout',    'chat'
+);
+if ( !in_array( $topic, $allowed ) )  {
+   error_log( ">>> TRIED TO ACCESS $topic <<<" );
+   $topic = "home";
+}
+// Diese Unterseiten werden direkt eingebunden anstatt den Umweg über ein Include zu gehen
+$loadContent = array(
+   'historie',
+   'karte',
+   'kontakt',
+   'cafe',
+   'rauminfo',
+   'stadtgeburtstag',
+   '403',
+
+);
+
+?>
+<!DOCTYPE html>
+<html><head>
+
+  <title>Studentenzentrum Z10 e.V.</title>
+  <link rel="stylesheet" type="text/css" href="styles/style_ws1718.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<body class="body">
+
+<div class="maincontainer">
+
+<div class="header">
+   <div class="logo"><a href=?topic=home><img src="imgs/z10-logo_260pxbreit.png"></a></div>
+   <div class="headertitle">
+   <h1>Studentenzentrum Zähringerstraße 10 e.V.</h1>
+   <h2>von Studis, für Studis</h2>
+   </div>
+
+
+</div>
+
+<div class="headermenu">
+   <!-- jeden Link einfach nur mit <a href=$href>$name</a> einbinden -->
+   <?php echo getMenu() ?>
+   </div>
+
+</div>
+
+<div class="maincontainer2">
+
+<div class="infobox_left">
+<div class="info_left" id="times">
+<h3>Öffnungszeiten</h3>
+   <div class="info_content">
+   <!-- Öffnungszeiten -->
+   <?php echo getOeffnung( $semesterferien, $mysqli ) ?>
+   </div>
+</div>
+
+<div class="info_left" id="facebook">
+<h3>Facebook</h3>
+   <div class="info_content">
+   <!-- Facebookquatsch -->
+   <?php echo getFacebook( 200, 275 ) ?>
+   </div>
+</div>
+
+<div class="info_left" id="didyouknow">
+<h3>Did you know?</h3>
+   <div class="info_content">
+   <!-- Did you know? -->
+   <?php echo getDYK( $mysqli ) ?>
+   </div>
+</div>
+
+<div class="info_left" id="randompicture">
+<h3>Zufallsbild</h3>
+   <div class="info_content">
+   <!-- Zufallsbild -->
+   <?php echo getRandomImage( $mysqli ) ?>
+   </div>
+</div>
+
+<div class="info_left" id="links">
+<h3>Links</h3>
+   <div class="info_content">
+   <!-- Links -->
+   <?php echo getContent( $mysqli, 'links' ) ?>
+   </div>
+</div>
+</div> <!-- END infobox_left -->
+
+
+<div class="infobox_right">
+
+<div class="info_right" id="shoutbox">
+<h3>Shoutbox</h3>
+   <div class="info_content">
+   <!-- Shoutbox -->
+   <? echo getShoutbox( $mysqli ) ?>
+   </div>
+</div>
+</div> <!-- END infobox_right -->
+
+
+<div class="centercontent">
+<?php 
+// Statischen Content laden (Admin->Texte)
+if ( in_array( $topic, $loadContent ) ) {
+   echo '<h4>' . ucfirst( $topic ) . '</h4>';
+   echo "<div class='contentbox' id='$topic'>";
+   echo getContent( $mysqli, $topic );
+   echo "</div>";
+}
+else {
+   // FIXME
+   include( "includes/$topic.inc.php" );
+}
+?>
+
+<div class="bottomspacer"></div>
+</div> <!-- END maincontent2 -->
+<div class="footer">
+  Mit freundlicher Unterstüzung der <a href='http://www.netcup.de'>netcup GmbH</a> | 
+  <a href='https://z10.info/impressum.php'>Impressum</a> | 
+  <a href='https://z10.info/datenschutz.php>Datenschutz</a>
+</div>
+</body></html>
+
+<?php
+
+function protectMail($addr) {
+   $mail = unpack( 'H*', $addr[1] );
+   $maillink = '<a href="?topic=mail&to=' . array_shift($mail) . '" target="_blank">';
+   $display  =  str_replace( "@", '<img src="includes/bl.gif" border=0>', $addr[2]) .  '</a>';
+   return $maillink . $display;
+}
+
+// mail adressen ersetzen
+$content = ob_get_contents();
+$content = preg_replace_callback('/<a href="mailto:(.*)".*>(.*)<\/a>/Usi', 'protectMail', $content);
+ob_end_clean();
+
+// seite ausgeben
+ob_start("ob_gzhandler");
+echo $content;
+ob_end_flush();
+exit();
+
+?>
